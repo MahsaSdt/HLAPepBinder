@@ -43,8 +43,8 @@ pip install -r requirements.txt
 
 ## Files
 
-- `HLAPepBinder.py`: Main script for loading test data, generating predictions, and calculating evaluation metrics.
-- `model/compressed_model.joblib`: Pre-trained HLAPepBinder model file.
+- `HLAPepBinder.ipynb`: Main script for loading test data, generating predictions, and calculating evaluation metrics.
+- `HLAPepBinder.joblib`: Pre-trained HLAPepBinder model file.
 - `data/test.csv`: Test dataset with peptide-HLA pairs with feature vector.
 - `data/external_test.csv`: External test dataset with peptide-HLA pairswith feature vector.
 
