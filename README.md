@@ -8,7 +8,7 @@ This project provides the test steps for the HLAPepBinder model, which is design
 - Python 3.x
 - Required libraries:
   - `scikit-learn`
-  - `joblib` (for loading and saving models)
+  - `joblib` (for loading the model)
   - `numpy` and `pandas` (for data handling and manipulation)
 
 Install dependencies with:
