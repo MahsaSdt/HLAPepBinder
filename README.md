@@ -20,9 +20,9 @@ pip install -r requirements.txt
 
 1. **Loading Test Data**: The code first loads a test dataset containing pairs of peptides and HLA sequences. Each pair will be processed to gather binding predictions from multiple baseline models.
 
-2. **Loading the Pre-trained Model**: The pre-trained HLAPepBinder model is then loaded to predict binding scores based on both the input sequences and the scores from base models.
+2. **Loading the Pre-trained Model**: The pre-trained HLAPepBinder model is then loaded to predict HLA-peptide binding based on  the scores from base models.
 
-3. **Generating Base Model Predictions**: For each peptide-HLA pair, the code retrieves scores from nine baseline models. These scores are essential inputs for HLAPepBinder and must be organized respectily as follows:
+3. **Generating Base Model Predictions**: For each peptide-HLA pair, the code retrieves scores from nine baseline models that are available in http://tools.iedb.org/mhci/ . These scores are essential inputs for HLAPepBinder and must be organized respectily as follows:
 
    - **Ann**: IC50 value
    - **Consensus**: Percentile value
